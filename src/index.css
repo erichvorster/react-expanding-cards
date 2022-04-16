@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 *{
   margin:0;
   padding:0;
@@ -5,7 +7,8 @@
 }
 
 body{
-  background-color: linear-gradient(to right, #2c5364, #203a43);
+  background: linear-gradient(to right, #2c5364, #203a43);
+  font-family: 'Poppins', sans-serif;
 }
 
 .App{
@@ -18,4 +21,13 @@ body{
 .card{
   background-color: #fff;
   padding: 3rem 5rem;
+}
+
+.card p{
+  padding-top:1rem;
+  line-height:150%;
+}
+
+.expand {
+  width:35rem;
 }
